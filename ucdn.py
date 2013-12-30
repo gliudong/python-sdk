@@ -6,7 +6,6 @@ import json
 
 #实例化 API 句柄
 ApiClient = UcloudApiClient(base_url, public_key, private_key)
-ApiClient = UcloudApiClient(base_url, public_key, private_key, 1)
 
 def refresh_cdn():
     #调用cdn内容刷新API 
